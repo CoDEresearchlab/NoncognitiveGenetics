@@ -1,0 +1,1500 @@
+---
+title: "Noncog over development" 
+author: "Margherita Malanchini"
+output:
+  html_document: default
+---
+Project: Genetics of noncognitive skills over development 
+Code: Phenotypic analyses
+Authors: Malanchini, Allegrini ... & Plomin 
+
+Preregistration at the following DB link: xx
+Results at the following DB link: xx
+Supplementary tables: xx
+
+All TEDS Measures (and variable names): 
+
+MEASURES AGE 7
+Achievement:    gte1 gte2 (English -teacher rated)
+                gtm1 gtm2 (Maths -teacher rated)
+                gta1 gta2 (Achievement composite -teacher rated)
+                
+Cognitive:      gsimilt1, gsimilt2 (similarities)
+                gvocabt1, gvocabt2 (vocabulary)
+                gpicomt1, gpicomt2 (picture completion)
+                gnwrt1,   gnwrt2 (non-word recognition)
+                gcl1,     gcl2 (verbal composite)
+                gcn1,     gcn2 (non-verbal composite)
+                gcg1,     gcg2 (g composite)
+                
+Noncognitve:   
+Parent-rated SDQ subscales
+                gpsprot1, gpsprot2 (Prosocial Behaviour) 
+                gpshypt1, gpshypt2 (Hyperactivity)
+                gpscont1, gpscont2 (Conduct problems)
+                gpspert1, gpspert2 (Peer problems)
+                gpsanxt1',gpsanxt2 (Anxiety)
+                gpsbeht1, gpsbeht2 (Problem Behaviour total score)
+                
+Teacher-rated SDQ subscales
+                gtsprot1, gtsprot2 (Prosocial Behaviour)
+                gtshypt1, gtshypt2 (Hyperactivity)
+                gtscont1, gtscont2 (Conduct problems)
+                gtspert1, gtspert2 (Peer problems)
+                gtsanxt1, gtsanxt2 (Anxiety)
+
+MEASURES AGE 9             
+Family income:  ipincome
+
+Achievement:    ite1, ite2 (teacher-rated English)
+                itm1, itm2 (teacher-rated maths)
+                its1, its2 (teache-rated science)
+                it3a1, it3a2 (total achievement E, M, S)
+                it2a1, it2a2 (total achievemnt E, M)
+
+Cognitive:      icpuzt1, icpuzt2 (Puzzles)
+                icwrdt1, icwrdt2 (Vocabulary)
+                icshpt1, icshpt2 (Shapes)
+                icgent1, icgent2 (General Knowledge)
+                icg1,     icg2 (g total score)
+                icvb1,    icvb2 (verbal g total score)
+                icnv1,    icnv2 (nonverbal g total score)
+                
+Noncognitive:   ippaaca1, ippaaca2  (Parent-rated academic perceived ability)
+                itpaaca1, itpaaca2  (Teacher-rated academic perceived ability)
+                icpaaca1, icpaaca2  (Child academic self-perceived ability)
+                ipliaca1, ipliaca2  (Parent-rated academic interest)
+                itliaca1, itliaca2  (Teacher-rated academic interest)
+                icliaca1, icliaca2  (Child academic interest)   
+                ipcsati1, ipcsati2  (CEQ Classroom satisfaction parent)
+                itcsati1, itcsati2  (CEQ Classroom satisfaction teacher)
+                iccsati1, iccsati2  (CEQ Classroom satisfaction child)
+                ipcoppo1, ipcoppo2  (CEQ Educational opportunity- parent)
+                iccoppo1, iccoppo2  (CEQ Educational opportunity- child)
+                ipcadve1, ipcadve2  (CEQ Adventures -enjoyment of learning -parent)
+                iccadve1, iccadve2  (CEQ Adventures -enjoyment of learning -child)
+                ipcpeer1, ipcpeer2  (CEQ Peers academic motivation -parent)
+                itcpeer1, itcpeer2  (CEQ Peers academic motivation -teacher)
+                iccpeer1, iccpeer2  (CEQ Peers academic motivation -child)
+
+SDQ:            ipsprot1, ipsprot2  (Prosocial Behaviour Parent) 
+                itsprot1, itsprot2  (Prosocial Behaviour Teacher) 
+                icsprot1, icsprot2  (Prosocial Behaviour Child) 
+                ipshypt1, ipshypt2  (Hyperactivity Parent)
+                itshypt1, itshypt2  (Hyperactivity Teacher)
+                icshypt1, icshypt2  (Hyperactivity Child)
+                ipscont1, ipscont2  (Conduct Parent)
+                itscont1, itscont2  (Conduct Teacher)
+                icscont1, icscont2  (Conduct Child)
+                ipspert1, ipspert2  (Peer Problems parent)
+                itspert1, itspert2  (Peer Problems teacher)
+                icspert1, icspert2  (Peer Problems child)
+                ipsanxt1, ipsanxt2  (Anxiety parent)
+                itsanxt1, itsanxt2  (Anxiety teacher)
+                icsanxt1, icsanxt2  (Anxiety child)
+                ipsbeht1, ipsbeht2  (SDQ total Behavioural problems parent)
+                itsbeht1, itsbeht2  (SDQ total Behavioural problems teacher)
+                icsbeht1, icsbeht2  (SDQ total Behavioural problems child)
+
+
+MEASURES AGE 12
+Age variables:  lpqage  (Age parent questionnaire)
+                ltqage1, ltqage2  (Age teacher quesionnaire)
+                lcqage1, lcqage2  (Age child questonnaire)
+                lcwage1, lcwage2  (Age web questionnaire)
+
+Achievement:    lte1, lte2 (Teacher rated English achievement)
+                ltm1, ltm2 (Teacher rated math achievement)
+                lts1, lts2 (Teacher rated science achievement)
+                lt2a1, lt2a2 (Achievement total score E M)
+                lt3a1, lt3a2 (Achievement total score E M S) 
+                lmatota1, lmatota2 (Maths web test total score)
+                lpitota1, lpitota2 (PIAT reading ability total score)
+                lgotota1, lgotota2 (GOAL reading comprehension total score)
+Cognitive:      lrvtota1, lrvtota2 (Ravens)
+                lpctot1, lpctot2 (Picture completion)
+                lgktota1, lgktota2 (General Knowledge)
+                lvctota1, lvctota2 (Vocabulary)
+                lcg1, lcg2 (g tot)
+                lcvb1, lcvb2 (verbal composite)
+                lcnv1, lcnv2 (nonverbal commposite)
+
+Noncognitive:   lcpaaca1, lcpaaca2 (academic perceived ability -child)
+                lcliaca1, lcliaca2 (academic interst -child)
+                lmatenv1, lmatenv2 (maths environment -child)
+                llitenv1, llitenv2 (literacy environment -child)
+
+SDQ:            lpsprot1, lpsprot2  (Prosocial Behaviour Parent) 
+                ltsprot1, ltsprot2  (Prosocial Behaviour Teacher) 
+                lcsprot1, lcsprot2  (Prosocial Behaviour Child) 
+                lpshypt1, lpshypt2  (Hyperactivity Parent)
+                ltshypt1, ltshypt2  (Hyperactivity Teacher)
+                lcshypt1, lcshypt2  (Hyperactivity Child)
+                lpscont1, lpscont2  (Conduct Parent)
+                ltscont1, ltscont2  (Conduct Teacher)
+                lcscont1, lcscont2  (Conduct Child)
+                lpspert1, lpspert2  (Peer Problems parent)
+                ltspert1, ltspert2  (Peer Problems teacher)
+                lcspert1, lcspert2  (Peer Problems child)
+                lpsanxt1, lpsanxt2  (Anxiety parent)
+                ltsanxt1, ltsanxt2  (Anxiety teacher)
+                lcsanxt1, lcsanxt2  (Anxiety child)
+                lpsbeht1, lpsbeht2  (SDQ total Behavioural problems parent)
+                ltsbeht1, ltsbeht2  (SDQ total Behavioural problems teacher)
+                lcsbeht1, lcsbeht2  (SDQ total Behavioural problems child)
+                
+
+MEASURES AGE 16
+Age variables:  pcwebage1, pcwebage2 (age web test)
+                ppbhage (age parent booklet)
+                pcbhage1, pcbhage2 (age child behavioural study)
+                pcexgcseage1, pcexgcseage2 (age exam grades)         
+SES:            pses
+Achievement:    pcexgcseengm1, pcexgcseengm2 (English GCSE)
+                pcexgcsescim1, pcexgcsescim2 (Science GCSE)
+                pcexgcsematm1, pcexgcsematm2 (Maths GCSE)
+                pcexgcsecorem1, pcexgcsecorem2 (GCSE total core subjects)
+
+Cognitive:      pcvctota1, pcvctota2 (Mill Hill)
+                pcrvtota1, pcrvtota2 (Ravens)
+                pcg1, pcg2 (g total)
+                
+Noncognitive:   pcsecom1, pcsecom2 (Academic self-concept)
+                pccurim1, pccurim2 (Curiosity)
+                pcgritm1, pcgritm2 (Grit)
+                pcambim1, pcambim2 (Ambition)
+                pcatscm1, pcatscm2 (Attitudes towards school)
+                pcscentsrm1, pcscentsrm2 (Relationship with teacher)
+                pcscencrsm1, pcscencrsm2 (Importance of schoolwork)
+                pcscenpslm1, pcscenpslm2 (peer support for learning)
+                pcscenfagm1, pcscenfagm2 (Future aspirations)
+                pcscenfslm1, pcscenfslm2 (Family support for learning)
+                pcscenm1, pcscenm2 (Total school engagement)
+                pcmaset1, pcmaset2 (Maths self-efficacy)
+                pcmainm1, pcmainm2 (Maths interest)
+                pcmatmt1, pcmatmt2 (Time spent on maths)
+ 
+ Personality:   pcpersneum1, pcpersneum2 (Neuroticism)
+                pcpersextm1, pcpersextm2 (Extraversion)
+                pcpersopem1, pcpersopem2 (Openness)
+                pcpersagrm1, pcpersagrm2 (Agreeableness)
+                pcpersconm1, pcpersconm2 (Conscientiousness)
+                pcshsm1, pcshsm2 (subjective happiness)
+                pclotrm1, pclotrm2 (optimism)
+                
+ SDQ:           pcbhsdqanxt1, pcbhsdqanxt2 (Anxiety)
+                pcbhsdqpert1, pcbhsdqpert2 (Peer problems)
+                pcbhsdqhypt1, pcbhsdqhypt2 (Hyperactivity) 
+                pcbhsdqcont1, pcbhsdqcont2 (Conduct)
+                pcbhsdqprot1, pcbhsdqprot2 (Prosocial scale)
+                
+                
+#----------------------------------------------------------------------
+1. Descriptive statistics
+These were run on unstandardized variables before adjusting for age and sex (exclusons were applied)
+
+```{r, inclue = FALSE}
+rm(list=ls())
+ls()
+
+library(plyr); library(tidyverse); library(reshape2)
+library(foreign); library(Hmisc); library(psych); library (pastecs)
+
+# read in data Not adjusted for age and sex or descriptive statistics
+
+dat<- read.csv('', header = T,strip.white = T ,na.strings = 'NA')
+
+#Apply medical exclusion criteria
+dat1 = dat[dat$exclude1==0, ] #from 22098 to 20912
+dat2 = dat1[dat1$random==1, ]
+
+df = dat2
+age4 = describe(df[, c('ases','dtvoc1', 'dnumbers1', 'dliteracy1', 'drepage1')])
+
+age7 = describe(df[, c('gpbage', 'gciage1', 'gtqage1', 'gte1', 'gtm1', 'gta1',
+'gsimilt1', 'gvocabt1', 'gpicomt1', 'gnwrt1','gcl1', 'gcn1', 'gcg1', 'gpsprot1', 'gpshypt1',
+'gpscont1', 'gpspert1', 'gpsanxt1','gpsbeht1', 'gtsprot1', 'gtshypt1', 'gtscont1', 'gtspert1', 'gtsanxt1')])
+
+age9 = describe(df[, c('icpage', 'itage1', 'ipincome','ite1', 'itm1','its1', 'it3a1', 'it2a1',
+'icpuzt1', 'icwrdt1', 'icshpt1', 'icgent1', 'icg1', 'icvb1','icnv1',
+'ippaaca1', 'itpaaca1', 'icpaaca1', 'ipliaca1',
+'itliaca1', 'icliaca1', 'ipcsati1', 'itcsati1',
+'iccsati1', 'ipcoppo1', 'iccoppo1', 'ipcadve1',
+'iccadve1', 'ipcpeer1', 'itcpeer1', 'iccpeer1',
+'ipsprot1', 'itsprot1', 'icsprot1', 'ipshypt1',
+'itshypt1', 'icshypt1', 'ipscont1', 'itscont1',
+'icscont1', 'ipspert1', 'itspert1', 'icspert1',
+'ipsanxt1', 'itsanxt1', 'icsanxt1', 'ipsbeht1',
+'itsbeht1', 'icsbeht1')])
+
+age12 = describe(df[ , c('lpqage','ltqage1', 'lcqage1', 'lcwage1', 'lte1',  'ltm1', 'lts1','lt2a1',  'lt3a1', 
+'lmatota1', 'lpitota1',  'lgotota1', 'lrvtota1', 'lpctot1', 'lgktota1', 
+'lvctota1', 'lcg1', 'lcvb1', 'lcnv1','lcpaaca1','lcliaca1', 'lmatenv1',
+'llitenv1','lpsprot1', 'ltsprot1','lcsprot1','lpshypt1', 'ltshypt1',
+'lcshypt1','lpscont1', 'ltscont1','lcscont1','lpspert1', 'ltspert1',
+'lcspert1','lpsanxt1', 'ltsanxt1','lcsanxt1','lpsbeht1', 'ltsbeht1','lcsbeht1')])
+
+
+age16 = describe(df[ , c('pcwebage1', 'ppbhage', 'pcbhage1', 'pcexgcseage1', 
+'pses','pcexgcseengm1', 'pcexgcsescim1', 'pcexgcsematm1', 
+'pcexgcsecorem1',  'pcvctota1',  'pcrvtota1', 'pcg1', 
+'pcsecom1', 'pccurim1', 'pcgritm1', 'pcambim1', 'pcatscm1', 'pcscentsrm1', 
+'pcscencrsm1', 'pcscenpslm1', 'pcscenfagm1', 
+'pcscenfslm1', 'pcscenm1', 'pcmaset1',  
+'pcmainm1', 'pcmatmt1', 
+'pcpersneum1', 'pcpersextm1', 'pcpersopem1', 
+'pcpersagrm1', 'pcpersconm1', 'pcshsm1', 'pclotrm1', 'pcbhsdqanxt1', 
+'pcbhsdqpert1', 'pcbhsdqhypt1', 'pcbhsdqcont1', 
+'pcbhsdqprot1')])
+```
+
+#----------------------------------------------------------------------
+
+2. Correlaitons bewteen individual noncognitive skills and academic achievement during developemnt 
+These were run on variables adjusted for age and sex and standardized (exclusions and random selection applied)
+The estimates and 95% CIs obtained were exported to the results tables and plotted as SOM figures (bar charts)
+
+```{r}
+
+rm(list=ls())
+ls()
+
+library(plyr); library(tidyverse); library(reshape2)
+library(foreign); library(Hmisc); library(psych); library (pastecs)
+library(psychometric)
+
+
+df1<- read.csv('', strip.white = T, header = T, na.strings = 'NA')
+
+#Age 7
+dat7 = df1[, c('gta1', 'gpsprot1', 'gpshypt1','gpscont1', 'gpspert1', 'gpsanxt1' )]
+colnames(dat7) = c('achievement7', 'prosocial7', 'hyperactivity7','conduct7', 'peerproblems7', 'anxiety7')
+nc_ach7 = rcorr(as.matrix(dat7))
+
+# Get 95% CIs for plotting: pull the r, N and p values 
+rnca7 = as.matrix(nc_ach7$r); rnca7[lower.tri(rnca7)]<-NA; print(rnca7)
+rnca7<-melt(rnca7); rnca7<-data.frame(rnca7[!is.na(rnca7[,3]),]) 
+rnca7 <- mutate(rnca7, pair_var = paste(Var1, Var2, sep = " ")) 
+rnca7 = rnca7[, 3:4]
+
+nnca7 = as.matrix(nc_ach7$n); nnca7[lower.tri(nnca7)]<-NA; print(nnca7)
+nnca7<-melt(nnca7); nnca7<-data.frame(nnca7[!is.na(nnca7[,3]),])
+nnca7 <- mutate(nnca7, pair_var = paste(Var1, Var2, sep = " ")) 
+nnca7 = nnca7[, 3:4]
+
+pnca7 = as.matrix(nc_ach7$P); pnca7[lower.tri(pnca7)]<-NA; print(pnca7)
+pnca7<-melt(pnca7); pnca7<-data.frame(pnca7[!is.na(pnca7[,3]),]) 
+pnca7 <- mutate(pnca7, pair_var = paste(Var1, Var2, sep = " "))
+
+
+rdf = merge(rnca7, nnca7, by = 'pair_var')
+rdf1 = merge(rdf, pnca7, by = 'pair_var')
+colnames(rdf1)<- c ( "pair_var", "r", "N", "var1", "var2", "p")
+
+#Calculate CIs
+#Create empty cols for lower and upper bound estimates
+rdf1$lwr = NULL
+rdf1$upr = NULL
+
+for (row in 1:nrow(rdf1)){
+   rdf1[["lwr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[1]
+   rdf1[["upr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[2]
+}
+print(rdf1)
+rdf7 = rdf1
+
+########################################################################
+#Age 9 
+
+dat9 = df1[, c('it2a1',
+               'ippaaca1','ipliaca1', 'ipcsati1', 'ipcoppo1', 'ipcadve1','ipsprot1',
+               'ipshypt1','ipscont1', 'ipspert1','ipsanxt1', 
+               'itpaaca1', 'itliaca1', 'itcsati1','itsprot1',
+               'itshypt1', 'itscont1','itspert1', 'itsanxt1', 
+               'icpaaca1','icliaca1', 'iccsati1', 'iccoppo1','iccadve1','icsprot1',
+               'icshypt1','icscont1', 'icspert1','icsanxt1')]
+
+colnames(dat9) = c('achievement9',
+                   'spa9p','interest9p','satisfaction9p','opportunity9p','enjoyment9p','prosocial9p', 
+                   'hyperactivity9p','conduct9p', 'peerproblems9p', 'anxiety9p',
+                   'spa9t','interest9t','satisfaction9t','prosocial9t', 
+                   'hyperactivity9t','conduct9t', 'peerproblems9t', 'anxiety9t',
+                   'spa9c','interest9c','satisfaction9c','opportunity9c','enjoyment9c','prosocial9c', 
+                   'hyperactivity9c','conduct9c', 'peerproblems9c', 'anxiety9c')
+
+nc_ach9 = rcorr(as.matrix(dat9))
+
+# Get 95% CIs for plotting: pull the r, N and p values 
+rnca9 = as.matrix(nc_ach9$r); rnca9[lower.tri(rnca9)]<-NA; print(rnca9)
+rnca9<-melt(rnca9); rnca9<-data.frame(rnca9[!is.na(rnca9[,3]),]) 
+rnca9 <- mutate(rnca9, pair_var = paste(Var1, Var2, sep = " ")) 
+rnca9 = rnca9[, 3:4]
+
+nnca9 = as.matrix(nc_ach9$n); nnca9[lower.tri(nnca9)]<-NA; print(nnca9)
+nnca9<-melt(nnca9); nnca9<-data.frame(nnca9[!is.na(nnca9[,3]),])
+nnca9 <- mutate(nnca9, pair_var = paste(Var1, Var2, sep = " ")) 
+nnca9 = nnca9[, 3:4]
+
+pnca9 = as.matrix(nc_ach9$P); pnca9[lower.tri(pnca9)]<-NA; print(pnca9)
+pnca9<-melt(pnca9); pnca9<-data.frame(pnca9[!is.na(pnca9[,3]),]) 
+pnca9 <- mutate(pnca9, pair_var = paste(Var1, Var2, sep = " "))
+
+
+rdf = merge(rnca9, nnca9, by = 'pair_var')
+rdf1 = merge(rdf, pnca9, by = 'pair_var')
+colnames(rdf1)<- c ( "pair_var", "r", "N", "var1", "var2", "p")
+
+#Calculate CIs
+#Create empty cols for lower and upper bound estimates
+rdf1$lwr = NULL
+rdf1$upr = NULL
+
+for (row in 1:nrow(rdf1)){
+   rdf1[["lwr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[1]
+   rdf1[["upr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[2]
+}
+
+print(rdf1)
+rdf9 = rdf1
+
+#######################################################################################
+#Age 12 
+
+dat12 = df1[, c('lt2a1','lcpaaca1','lcliaca1', 'lmatenv1','llitenv1', 
+                'lcsprot1','lcshypt1', 'lcscont1','lcspert1','lcsanxt1', 
+                'lpsprot1','lpshypt1', 'lpscont1','lpspert1','lpsanxt1',
+                'ltsprot1','ltshypt1', 'ltscont1','ltspert1','ltsanxt1')]
+
+colnames(dat12) = c('achievement12','spa12','interest12','mathsenv12','litenv12', 
+                   'prosocial12c' ,'hyperactivity12c','conduct12c', 'peerproblems12c', 'anxiety12c',
+                   'prosocial12p' ,'hyperactivity12p','conduct12p', 'peerproblems12p', 'anxiety12p',
+                   'prosocial12t' ,'hyperactivity12t','conduct12t', 'peerproblems12t', 'anxiety12t')
+
+nc_ach12 = rcorr(as.matrix(dat12))
+
+# Get 95% CIs for plotting: pull the r, N and p values 
+rnca12 = as.matrix(nc_ach12$r); rnca12[lower.tri(rnca12)]<-NA; print(rnca12)
+rnca12<-melt(rnca12); rnca12<-data.frame(rnca12[!is.na(rnca12[,3]),]) 
+rnca12 <- mutate(rnca12, pair_var = paste(Var1, Var2, sep = " ")) 
+rnca12 = rnca12[, 3:4]
+
+nnca12 = as.matrix(nc_ach12$n); nnca12[lower.tri(nnca12)]<-NA; print(nnca12)
+nnca12<-melt(nnca12); nnca12<-data.frame(nnca12[!is.na(nnca12[,3]),])
+nnca12 <- mutate(nnca12, pair_var = paste(Var1, Var2, sep = " ")) 
+nnca12 = nnca12[, 3:4]
+
+pnca12 = as.matrix(nc_ach12$P); pnca12[lower.tri(pnca12)]<-NA; print(pnca12)
+pnca12<-melt(pnca12); pnca12<-data.frame(pnca12[!is.na(pnca12[,3]),]) 
+pnca12 <- mutate(pnca12, pair_var = paste(Var1, Var2, sep = " "))
+
+
+rdf = merge(rnca12, nnca12, by = 'pair_var')
+rdf1 = merge(rdf, pnca12, by = 'pair_var')
+colnames(rdf1)<- c ( "pair_var", "r", "N", "var1", "var2", "p")
+
+#Calculate CIs
+#Create empty cols for lower and upper bound estimates
+rdf1$lwr = NULL
+rdf1$upr = NULL
+
+for (row in 1:nrow(rdf1)){
+   rdf1[["lwr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[1]
+   rdf1[["upr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[2]
+}
+
+print(rdf1)
+rdf12 = rdf1
+
+#######################################################################################
+#Age 16
+
+dat16 = df1[, c('pcexgcsecorem1','pcsecom1', 'pccurim1', 'pcgritm1', 'pcambim1', 'pcatscm1', 'pcscenm1', 'pcmaset1','pcmainm1', 'pcmatmt1', 'pcpersneum1', 'pcpersextm1', 'pcpersopem1', 'pcpersagrm1', 'pcpersconm1', 'pcshsm1', 'pclotrm1', 'pcbhsdqanxt1', 'pcbhsdqpert1', 'pcbhsdqhypt1', 'pcbhsdqcont1', 'pcbhsdqprot1')]
+
+colnames(dat16) = c('achievement16','selfconcept16','curiosity16','grit16','ambition16', 
+                   'attitudes16' ,'schengagement16','mathse16', 'mathint16', 'mathtime16',
+                   'bfiN16' ,'bfiE16','bfiO16', 'bfiA16', 'bfiC16',
+                   'happiness16' ,'optimism16','anxiety16', 'peerproblems16', 'hyperactivity16',
+                   'conduct16', 'prosocial16')
+nc_ach16 = rcorr(as.matrix(dat16))
+
+# Get 95% CIs for plotting: pull the r, N and p values 
+rnca16 = as.matrix(nc_ach16$r); rnca16[lower.tri(rnca16)]<-NA; print(rnca16)
+rnca16<-melt(rnca16); rnca12<-data.frame(rnca16[!is.na(rnca16[,3]),]) 
+rnca16 <- mutate(rnca16, pair_var = paste(Var1, Var2, sep = " ")) 
+rnca16 = rnca16[, 3:4]
+
+nnca16 = as.matrix(nc_ach16$n); nnca16[lower.tri(nnca16)]<-NA; print(nnca16)
+nnca16<-melt(nnca16); nnca16<-data.frame(nnca16[!is.na(nnca16[,3]),])
+nnca16 <- mutate(nnca16, pair_var = paste(Var1, Var2, sep = " ")) 
+nnca16 = nnca16[, 3:4]
+
+pnca16 = as.matrix(nc_ach16$P); pnca16[lower.tri(pnca16)]<-NA; print(pnca16)
+pnca16<-melt(pnca16); pnca16<-data.frame(pnca16[!is.na(pnca16[,3]),]) 
+pnca16 <- mutate(pnca16, pair_var = paste(Var1, Var2, sep = " "))
+
+
+rdf = merge(rnca16, nnca16, by = 'pair_var')
+rdf1 = merge(rdf, pnca16, by = 'pair_var')
+colnames(rdf1)<- c ( "pair_var", "r", "N", "var1", "var2", "p")
+
+
+#Calculate CIs
+#Create empty cols for lower and upper bound estimates
+rdf1$lwr = NULL
+rdf1$upr = NULL
+
+for (row in 1:nrow(rdf1)){
+   rdf1[["lwr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[1]
+   rdf1[["upr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[2]
+}
+
+print(rdf1)
+rdf16 = rdf1
+
+allrdf = rbind.data.frame(rdf7, rdf9, rdf12, rdf16)
+write.csv(allrdf, '', row.names = F, na = 'NA')
+
+```
+
+2.b Correlations between observed measures of noncognitive skills and general cognitive ability at the same age
+```{r, include =FALSE}
+
+rm(list=ls())
+ls()
+
+library(plyr); library(tidyverse); library(reshape2)
+library(foreign); library(Hmisc); library(psych); library (pastecs)
+library(psychometric)
+
+df1<- read.csv('', strip.white = T, header = T, na.strings = 'NA')
+
+#Age 7
+dat7 = df1[, c('gcg1', 'gpsprot1', 'gpshypt1','gpscont1', 'gpspert1', 'gpsanxt1' )]
+colnames(dat7) = c('g 7', 'prosocial 7', 'hyperactivity 7','conduct 7', 'peerproblems 7', 'anxiety 7')
+nc_ach7 = rcorr(as.matrix(dat7))
+
+# Get 95% CIs for plotting: pull the r, N and p values 
+rnca7 = as.matrix(nc_ach7$r); rnca7[lower.tri(rnca7)]<-NA; print(rnca7)
+rnca7<-melt(rnca7); rnca7<-data.frame(rnca7[!is.na(rnca7[,3]),]) 
+rnca7 <- mutate(rnca7, pair_var = paste(Var1, Var2, sep = " ")) 
+rnca7 = rnca7[, 3:4]
+
+nnca7 = as.matrix(nc_ach7$n); nnca7[lower.tri(nnca7)]<-NA; print(nnca7)
+nnca7<-melt(nnca7); nnca7<-data.frame(nnca7[!is.na(nnca7[,3]),])
+nnca7 <- mutate(nnca7, pair_var = paste(Var1, Var2, sep = " ")) 
+nnca7 = nnca7[, 3:4]
+
+pnca7 = as.matrix(nc_ach7$P); pnca7[lower.tri(pnca7)]<-NA; print(pnca7)
+pnca7<-melt(pnca7); pnca7<-data.frame(pnca7[!is.na(pnca7[,3]),]) 
+pnca7 <- mutate(pnca7, pair_var = paste(Var1, Var2, sep = " "))
+
+
+rdf = merge(rnca7, nnca7, by = 'pair_var')
+rdf1 = merge(rdf, pnca7, by = 'pair_var')
+colnames(rdf1)<- c ( "pair_var", "r", "N", "var1", "var2", "p")
+
+#Calculate CIs
+#Create empty cols for lower and upper bound estimates
+rdf1$lwr = NULL
+rdf1$upr = NULL
+
+for (row in 1:nrow(rdf1)){
+   rdf1[["lwr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[1]
+   rdf1[["upr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[2]
+}
+print(rdf1)
+rdf7 = rdf1
+
+########################################################################
+#Age 9 
+
+dat9 = df1[, c('icg1',
+               'ippaaca1','ipliaca1', 'ipcsati1', 'ipcoppo1', 'ipcadve1','ipsprot1',
+               'ipshypt1','ipscont1', 'ipspert1','ipsanxt1', 
+               'itpaaca1', 'itliaca1', 'itcsati1','itsprot1',
+               'itshypt1', 'itscont1','itspert1', 'itsanxt1', 
+               'icpaaca1','icliaca1', 'iccsati1', 'iccoppo1','iccadve1','icsprot1',
+               'icshypt1','icscont1', 'icspert1','icsanxt1')]
+
+colnames(dat9) = c('g9',
+                   'spa9p','interest9p','satisfaction9p','opportunity9p','enjoyment9p','prosocial9p', 
+                   'hyperactivity9p','conduct9p', 'peerproblems9p', 'anxiety9p',
+                   'spa9t','interest9t','satisfaction9t','prosocial9t', 
+                   'hyperactivity9t','conduct9t', 'peerproblems9t', 'anxiety9t',
+                   'spa9c','interest9c','satisfaction9c','opportunity9c','enjoyment9c','prosocial9c', 
+                   'hyperactivity9c','conduct9c', 'peerproblems9c', 'anxiety9c')
+
+nc_ach9 = rcorr(as.matrix(dat9))
+
+# Get 95% CIs for plotting: pull the r, N and p values 
+rnca9 = as.matrix(nc_ach9$r); rnca9[lower.tri(rnca9)]<-NA; print(rnca9)
+rnca9<-melt(rnca9); rnca9<-data.frame(rnca9[!is.na(rnca9[,3]),]) 
+rnca9 <- mutate(rnca9, pair_var = paste(Var1, Var2, sep = " ")) 
+rnca9 = rnca9[, 3:4]
+
+nnca9 = as.matrix(nc_ach9$n); nnca9[lower.tri(nnca9)]<-NA; print(nnca9)
+nnca9<-melt(nnca9); nnca9<-data.frame(nnca9[!is.na(nnca9[,3]),])
+nnca9 <- mutate(nnca9, pair_var = paste(Var1, Var2, sep = " ")) 
+nnca9 = nnca9[, 3:4]
+
+pnca9 = as.matrix(nc_ach9$P); pnca9[lower.tri(pnca9)]<-NA; print(pnca9)
+pnca9<-melt(pnca9); pnca9<-data.frame(pnca9[!is.na(pnca9[,3]),]) 
+pnca9 <- mutate(pnca9, pair_var = paste(Var1, Var2, sep = " "))
+
+
+rdf = merge(rnca9, nnca9, by = 'pair_var')
+rdf1 = merge(rdf, pnca9, by = 'pair_var')
+colnames(rdf1)<- c ( "pair_var", "r", "N", "var1", "var2", "p")
+
+#Calculate CIs
+#Create empty cols for lower and upper bound estimates
+rdf1$lwr = NULL
+rdf1$upr = NULL
+
+for (row in 1:nrow(rdf1)){
+   rdf1[["lwr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[1]
+   rdf1[["upr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[2]
+}
+
+print(rdf1)
+rdf9 = rdf1
+
+#######################################################################################
+#Age 12 
+
+dat12 = df1[, c('lcg1','lcpaaca1','lcliaca1', 'lmatenv1','llitenv1', 
+                'lcsprot1','lcshypt1', 'lcscont1','lcspert1','lcsanxt1', 
+                'lpsprot1','lpshypt1', 'lpscont1','lpspert1','lpsanxt1',
+                'ltsprot1','ltshypt1', 'ltscont1','ltspert1','ltsanxt1')]
+
+colnames(dat12) = c('g12','spa12','interest12','mathsenv12','litenv12', 
+                   'prosocial12c' ,'hyperactivity12c','conduct12c', 'peerproblems12c', 'anxiety12c',
+                   'prosocial12p' ,'hyperactivity12p','conduct12p', 'peerproblems12p', 'anxiety12p',
+                   'prosocial12t' ,'hyperactivity12t','conduct12t', 'peerproblems12t', 'anxiety12t')
+
+nc_ach12 = rcorr(as.matrix(dat12))
+
+# Get 95% CIs for plotting: pull the r, N and p values 
+rnca12 = as.matrix(nc_ach12$r); rnca12[lower.tri(rnca12)]<-NA; print(rnca12)
+rnca12<-melt(rnca12); rnca12<-data.frame(rnca12[!is.na(rnca12[,3]),]) 
+rnca12 <- mutate(rnca12, pair_var = paste(Var1, Var2, sep = " ")) 
+rnca12 = rnca12[, 3:4]
+
+nnca12 = as.matrix(nc_ach12$n); nnca12[lower.tri(nnca12)]<-NA; print(nnca12)
+nnca12<-melt(nnca12); nnca12<-data.frame(nnca12[!is.na(nnca12[,3]),])
+nnca12 <- mutate(nnca12, pair_var = paste(Var1, Var2, sep = " ")) 
+nnca12 = nnca12[, 3:4]
+
+pnca12 = as.matrix(nc_ach12$P); pnca12[lower.tri(pnca12)]<-NA; print(pnca12)
+pnca12<-melt(pnca12); pnca12<-data.frame(pnca12[!is.na(pnca12[,3]),]) 
+pnca12 <- mutate(pnca12, pair_var = paste(Var1, Var2, sep = " "))
+
+
+rdf = merge(rnca12, nnca12, by = 'pair_var')
+rdf1 = merge(rdf, pnca12, by = 'pair_var')
+colnames(rdf1)<- c ( "pair_var", "r", "N", "var1", "var2", "p")
+
+#Calculate CIs
+#Create empty cols for lower and upper bound estimates
+rdf1$lwr = NULL
+rdf1$upr = NULL
+
+for (row in 1:nrow(rdf1)){
+   rdf1[["lwr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[1]
+   rdf1[["upr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[2]
+}
+
+print(rdf1)
+rdf12 = rdf1
+
+#######################################################################################
+#Age 16
+
+dat16 = df1[, c('pcg1','pcsecom1', 'pccurim1', 'pcgritm1', 'pcambim1', 'pcatscm1', 'pcscenm1', 'pcmaset1','pcmainm1', 'pcmatmt1', 'pcpersneum1', 'pcpersextm1', 'pcpersopem1', 'pcpersagrm1', 'pcpersconm1', 'pcshsm1', 'pclotrm1', 'pcbhsdqanxt1', 'pcbhsdqpert1', 'pcbhsdqhypt1', 'pcbhsdqcont1', 'pcbhsdqprot1')]
+
+colnames(dat16) = c('g16','selfconcept16','curiosity16','grit16','ambition16', 
+                   'attitudes16' ,'schengagement16','mathse16', 'mathint16', 'mathtime16',
+                   'bfiN16' ,'bfiE16','bfiO16', 'bfiA16', 'bfiC16',
+                   'happiness16' ,'optimism16','anxiety16', 'peerproblems16', 'hyperactivity16',
+                   'conduct16', 'prosocial16')
+nc_ach16 = rcorr(as.matrix(dat16))
+
+# Get 95% CIs for plotting: pull the r, N and p values 
+rnca16 = as.matrix(nc_ach16$r); rnca16[lower.tri(rnca16)]<-NA; print(rnca16)
+rnca16<-melt(rnca16); rnca12<-data.frame(rnca16[!is.na(rnca16[,3]),]) 
+rnca16 <- mutate(rnca16, pair_var = paste(Var1, Var2, sep = " ")) 
+rnca16 = rnca16[, 3:4]
+
+nnca16 = as.matrix(nc_ach16$n); nnca16[lower.tri(nnca16)]<-NA; print(nnca16)
+nnca16<-melt(nnca16); nnca16<-data.frame(nnca16[!is.na(nnca16[,3]),])
+nnca16 <- mutate(nnca16, pair_var = paste(Var1, Var2, sep = " ")) 
+nnca16 = nnca16[, 3:4]
+
+pnca16 = as.matrix(nc_ach16$P); pnca16[lower.tri(pnca16)]<-NA; print(pnca16)
+pnca16<-melt(pnca16); pnca16<-data.frame(pnca16[!is.na(pnca16[,3]),]) 
+pnca16 <- mutate(pnca16, pair_var = paste(Var1, Var2, sep = " "))
+
+
+rdf = merge(rnca16, nnca16, by = 'pair_var')
+rdf1 = merge(rdf, pnca16, by = 'pair_var')
+colnames(rdf1)<- c ( "pair_var", "r", "N", "var1", "var2", "p")
+
+
+#Calculate CIs
+#Create empty cols for lower and upper bound estimates
+rdf1$lwr = NULL
+rdf1$upr = NULL
+
+for (row in 1:nrow(rdf1)){
+   rdf1[["lwr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[1]
+   rdf1[["upr"]][row] <- CIr(r = rdf1[["r"]][row], n = rdf1[["N"]][row], level = .95)[2]
+}
+
+print(rdf1)
+rdf16 = rdf1
+
+allrdf = rbind.data.frame(rdf7, rdf9, rdf12, rdf16)
+write.csv(allrdf, '/Users/margheritamalanchini/Dropbox/2019 Queen Mary/MM papers 2019/MM_AGA_Genomic SEM Achievement/Results MM/all_pheno_corr_NC_g_95cis.csv', row.names = F, na = 'NA')
+
+
+```
+
+
+3.Correlaitons between latent factors of noncognitive skills and self-regulation and achievement.
+a) create latent factors of cognitive and noncognitive skills at each age
+b) correlate them with achievement 
+
+```{r}
+rm(list = ls())
+
+library(plyr); library(tidyverse); library(reshape2); library(foreign)
+library(Hmisc); library(psych); library (haven); library(lavaan)
+```
+```{r}
+
+df<- read.csv('', strip.white = T, header = T, na.strings = 'NA')
+
+
+df7<- df[, c("randomfamid","randomtwinid",'gpbage', 'gciage1', 'gtqage1', 'gte1', 'gtm1', 'gta1',
+'gsimilt1', 'gvocabt1', 'gpicomt1', 'gnwrt1','gcl1', 'gcn1', 'gcg1', 'gpsprot1', 'gpshypt1',
+'gpscont1', 'gpspert1', 'gpsanxt1','gpsbeht1', 'gtsprot1', 'gtshypt1', 'gtscont1', 'gtspert1', 'gtsanxt1',
+'gciage2', 'gtqage2', 'gte2', 'gtm2', 'gta2',
+'gsimilt2', 'gvocabt2', 'gpicomt2', 'gnwrt2','gcl2', 'gcn2', 'gcg2', 'gpsprot2', 'gpshypt2',
+'gpscont2', 'gpspert2', 'gpsanxt2','gpsbeht2', 'gtsprot2', 'gtshypt2', 'gtscont2', 'gtspert2', 'gtsanxt2')]
+
+```
+Age 7-- NC-self-regulation (parent-rated) 
+```{r}
+#TWIN 1
+# reverse SDQ measures so to get a self-regulation latent factor where 
+# higher score equals higher SR 
+df7$gpshypt1r = -1*df7$gpshypt1
+df7$gpscont1r = -1*df7$gpscont1
+df7$gpspert1r = -1*df7$gpspert1
+df7$gpsanxt1r = -1*df7$gpsanxt1 #;rcorr(as.matrix(df7[, c('gpsanxt1r', 'gpsanxt1')]))
+
+latentSR7p <- 'SR7 =~ gpsprot1+gpshypt1r+gpscont1r+gpspert1r+gpsanxt1r'
+fit <- cfa(latentSR7p, data=df7, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df7$SR_7_P_1 <- pred$SR7
+hist(df7$SR_7_P_1)
+
+#merge with data
+df71 <- df7[,c("randomfamid","randomtwinid","SR_7_P_1")]
+df1 <- merge(df, df71, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+########################################################################
+# TWIN 2
+
+df7$gpshypt2r = -1*df7$gpshypt2
+df7$gpscont2r = -1*df7$gpscont2
+df7$gpspert2r = -1*df7$gpspert2
+df7$gpsanxt2r = -1*df7$gpsanxt2 #;rcorr(as.matrix(df7[, c('gpsanxt2r', 'gpsanxt2')]))
+
+latentSR7p <- 'SR7 =~ gpsprot2+gpshypt2r+gpscont2r+gpspert2r+gpsanxt2r'
+fit <- cfa(latentSR7p, data=df7, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df7$SR_7_P_2 <- pred$SR7
+hist(df7$SR_7_P_2)
+#merge with data
+df72 <- df7[,c("randomfamid","randomtwinid","SR_7_P_2")]
+df1 <- merge(df1, df72, by = c("randomfamid","randomtwinid"), all = TRUE)
+# df2<- df1[df1$random==1, ]
+# rcorr(as.matrix(df2[, c('SR_7_P_1', 'SR_7_P_2')]))
+```
+AGE 7 -- latent g 
+
+```{r}
+
+gg7 <- 'G7 =~ gsimilt1+gvocabt1+gpicomt1+gnwrt1'
+fit <- cfa(gg7, data=df7, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit)
+pred <- as.data.frame(pred)
+
+df7$lat_g_7_1 <- pred$G7; hist(df7$lat_g_7_1)
+
+#merge with data
+df71 <- df7[,c("randomfamid","randomtwinid","lat_g_7_1")]
+df1 <- merge(df1, df71, by = c("randomfamid","randomtwinid"), all = TRUE)
+# df2<- df1[df1$random==1, ]
+# rcorr(as.matrix(df2[, c('lat_g_7_1', 'gcg1')])) #correlated at .90 with g total score
+
+######################################################################
+# TWIN 2
+gg7 <- 'G7 =~ gsimilt2+gvocabt2+gpicomt2+gnwrt2'
+fit <- cfa(gg7, data=df7, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit)
+pred <- as.data.frame(pred)
+
+df7$lat_g_7_2 <- pred$G7; hist(df7$lat_g_7_2)
+
+#merge with data
+df72 <- df7[,c("randomfamid","randomtwinid","lat_g_7_2")]
+df1 <- merge(df1, df72, by = c("randomfamid","randomtwinid"), all = TRUE)
+# df2<- df1[df1$random==1, ]
+# rcorr(as.matrix(df2[, c('lat_g_7_2', 'gcg2')])) #correlated at .90 with g total score
+
+```
+
+### Latent constructs and factors scores age 9 ###
+# 1) SR NC parent
+# 2) SR NC teacher
+# 3) SR NC self
+# 4) edu NC parent
+# 5) edu NC teacher
+# 6) edu NC self
+# 7) g 
+```{r}
+df9<- df[, c("randomfamid","randomtwinid",'it2a1',
+             'icpuzt1', 'icpuzt2','icwrdt1', 'icwrdt2','icshpt1', 'icshpt2','icgent1', 'icgent2',
+             'icg1','icg2', 'icvb1','icvb2', 'icnv1','icnv2', 
+             'ippaaca1','ipliaca1', 'ipcsati1', 'ipcoppo1', 'ipcadve1','ipcpeer1','ipsprot1',
+             'ipshypt1','ipscont1', 'ipspert1','ipsanxt1', 
+             'itpaaca1', 'itliaca1', 'itcsati1','itsprot1',
+             'itshypt1', 'itscont1','itspert1', 'itsanxt1', 
+             'icpaaca1','icliaca1', 'iccsati1', 'iccoppo1','iccadve1','iccpeer1','icsprot1',
+             'icshypt1','icscont1', 'icspert1','icsanxt1',
+             'it2a2','icpuzt2', 'icpuzt2','icwrdt2', 'icwrdt2','icshpt2', 'icshpt2','icgent2', 'icgent2',
+             'icg2','icg2', 'icvb2','icvb2', 'icnv2','icnv2', 
+             'ippaaca2','ipliaca2', 'ipcsati2', 'ipcoppo2', 'ipcadve2','ipcpeer2','ipsprot2',
+             'ipshypt2','ipscont2', 'ipspert2','ipsanxt2', 
+             'itpaaca2', 'itliaca2', 'itcsati2','itsprot2',
+             'itshypt2', 'itscont2','itspert2', 'itsanxt2', 
+             'icpaaca2','icliaca2', 'iccsati2', 'iccoppo2','iccadve2','iccpeer2','icsprot2',
+             'icshypt2','icscont2', 'icspert2','icsanxt2')]
+
+```
+
+Age 9-- NC-self-regulation (parent-rated) 
+```{r}
+#TWIN 1
+# reverse SDQ measures so to get a self-regulation latent factor where 
+# higher score equals higher SR 
+df9$ipshypt1r = -1*df9$ipshypt1
+df9$ipscont1r = -1*df9$ipscont1
+df9$ipspert1r = -1*df9$ipspert1
+df9$ipsanxt1r = -1*df9$ipsanxt1 #;rcorr(as.matrix(df9[, c('ipsanxt1r', 'ipsanxt1')]))
+
+latentSR9p <- 'SR9 =~ ipsprot1+ipshypt1r+ipscont1r+ipspert1r+ipsanxt1r'
+fit <- cfa(latentSR9p, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df9$SR_9_P_1 <- pred$SR9
+hist(df9$SR_9_P_1)
+
+df91 <- df9[,c("randomfamid","randomtwinid","SR_9_P_1")]
+df1 <- merge(df1, df91, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df1[, c('SR_7_P_1', 'SR_9_P_1')])) # r age 9 and age 9 = .66
+########################################################################
+# TWIN 2
+df9$ipshypt2r = -1*df9$ipshypt2
+df9$ipscont2r = -1*df9$ipscont2
+df9$ipspert2r = -1*df9$ipspert2
+df9$ipsanxt2r = -1*df9$ipsanxt2 #;rcorr(as.matrix(df9[, c('ipsanxt1r', 'ipsanxt1')]))
+
+latentSR9p <- 'SR9 =~ ipsprot2+ipshypt2r+ipscont2r+ipspert2r+ipsanxt2r'
+fit <- cfa(latentSR9p, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df9$SR_9_P_2 <- pred$SR9
+hist(df9$SR_9_P_2)
+
+df92 <- df9[,c("randomfamid","randomtwinid","SR_9_P_2")]
+df1 <- merge(df1, df92, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+```
+
+Age 9-- NC-self-regulation (teacher-rated) 
+```{r}
+#TWIN 1
+# reverse SDQ measures so to get a self-regulation latent factor where 
+# higher score equals higher SR 
+df9$itshypt1r = -1*df9$itshypt1
+df9$itscont1r = -1*df9$itscont1
+df9$itspert1r = -1*df9$itspert1
+df9$itsanxt1r = -1*df9$itsanxt1 #;rcorr(as.matrix(df9[, c('itsanxt1r', 'itsanxt1')]))
+
+latentSR9t <- 'SR9 =~ itsprot1+itshypt1r+itscont1r+itspert1r+itsanxt1r'
+fit <- cfa(latentSR9t, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df9$SR_9_T_1 <- pred$SR9
+hist(df9$SR_9_T_1)
+
+df91 <- df9[,c("randomfamid","randomtwinid","SR_9_T_1")]
+df1 <- merge(df1, df91, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df1[, c('SR_7_P_1', 'SR_9_T_1')])) # r age 7 (PARENT) and age 9 (TEACHER) = .36
+########################################################################
+# TWIN 2
+df9$itshypt2r = -1*df9$itshypt2
+df9$itscont2r = -1*df9$itscont2
+df9$itspert2r = -1*df9$itspert2
+df9$itsanxt2r = -1*df9$itsanxt2 #;rcorr(as.matrix(df9[, c('itsanxt2r', 'itsanxt2')]))
+
+latentSR9t <- 'SR9 =~ itsprot2+itshypt2r+itscont2r+itspert2r+itsanxt2r'
+fit <- cfa(latentSR9t, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df9$SR_9_T_2 <- pred$SR9
+hist(df9$SR_9_T_2)
+df91 <- df9[,c("randomfamid","randomtwinid","SR_9_T_2")]
+df1 <- merge(df1, df91, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+```
+Age 9-- NC-self-regulation (self-rated) 
+```{r}
+#TWIN 1
+# reverse SDQ measures so to get a self-regulation latent factor where 
+# higher score equals higher SR 
+df9$icshypt1r = -1*df9$icshypt1
+df9$icscont1r = -1*df9$icscont1
+df9$icspert1r = -1*df9$icspert1
+df9$icsanxt1r = -1*df9$icsanxt1 #;rcorr(as.matrix(df9[, c('icsanxt1r', 'icsanxt1')]))
+
+latentSR9s <- 'SR9 =~ icsprot1+icshypt1r+icscont1r+icspert1r+icsanxt1r'
+fit <- cfa(latentSR9s, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df9$SR_9_S_1 <- pred$SR9
+hist(df9$SR_9_S_1)
+
+df91 <- df9[,c("randomfamid","randomtwinid","SR_9_S_1")]
+df1 <- merge(df1, df91, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df1[, c('SR_9_P_1', 'SR_9_S_1')])) # r age 9 (PARENT) and age 9 (SELF) = .51
+########################################################################
+# TWIN 2
+df9$icshypt2r = -1*df9$icshypt2
+df9$icscont2r = -1*df9$icscont2
+df9$icspert2r = -1*df9$icspert2
+df9$icsanxt2r = -1*df9$icsanxt2 #;rcorr(as.matrix(df9[, c('icsanxt2r', 'icsanxt2')]))
+
+latentSR9s <- 'SR9 =~ icsprot2+icshypt2r+icscont2r+icspert2r+icsanxt2r'
+fit <- cfa(latentSR9s, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df9$SR_9_S_2 <- pred$SR9
+hist(df9$SR_9_S_2)
+df91 <- df9[,c("randomfamid","randomtwinid","SR_9_S_2")]
+df1 <- merge(df1, df91, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df1[, c('SR_9_P_2', 'SR_9_S_2')])) # r age 9 (PARENT) and age 9 (SELF) = .51
+```
+Educaitonally-relevant noncognitiev skills 
+Parent-rated edu NC age 9
+```{r}
+#TWIN 1
+eduNC9p <- 'NC9 =~ ipliaca1+ippaaca1+ipcsati1+ipcadve1+ipcoppo1'
+fit <- cfa(eduNC9p, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df9$eduNC_9_P_1 <- pred$NC9
+hist(df9$eduNC_9_P_1)
+
+df91 <- df9[,c("randomfamid","randomtwinid","eduNC_9_P_1")]
+df1 <- merge(df1, df91, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df1[, c('SR_9_P_1', 'eduNC_9_P_1')])) # 0.40
+########################################################################
+# TWIN 2
+
+eduNC9p <- 'NC9 =~ ipliaca2+ippaaca2+ipcsati2+ipcadve2+ipcoppo2'
+fit <- cfa(eduNC9p, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df9$eduNC_9_P_2 <- pred$NC9
+hist(df9$eduNC_9_P_2)
+
+df92 <- df9[,c("randomfamid","randomtwinid","eduNC_9_P_2")]
+df1 <- merge(df1, df92, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+```
+
+Teacher-rated edu NC age 9
+
+```{r}
+#TWIN 1
+eduNC9t <- 'NC9 =~ itliaca1+itpaaca1+itcsati1'
+fit <- cfa(eduNC9t, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df9$eduNC_9_T_1 <- pred$NC9
+hist(df9$eduNC_9_T_1)
+df91 <- df9[,c("randomfamid","randomtwinid","eduNC_9_T_1")]
+df1 <- merge(df1, df91, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df1[, c('eduNC_9_P_1', 'eduNC_9_T_1')])) # 0.47
+########################################################################
+# TWIN 2
+eduNC9t <- 'NC9 =~ itliaca2+itpaaca2+itcsati2'
+fit <- cfa(eduNC9t, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df9$eduNC_9_T_2 <- pred$NC9
+hist(df9$eduNC_9_T_2)
+df91 <- df9[,c("randomfamid","randomtwinid","eduNC_9_T_2")]
+df1 <- merge(df1, df91, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df1[, c('eduNC_9_T_1', 'eduNC_9_T_2')])) # 0.49
+```
+self-rated edu NC age 9
+```{r}
+#TWIN 1
+eduNC9s <- 'NC9 =~ icliaca1+icpaaca1+iccsati1+iccadve1+iccoppo1'
+fit <- cfa(eduNC9s, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df9$eduNC_9_S_1 <- pred$NC9
+hist(df9$eduNC_9_S_1)
+
+df91 <- df9[,c("randomfamid","randomtwinid","eduNC_9_S_1")]
+df1 <- merge(df1, df91, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df1[, c('eduNC_9_P_1', 'eduNC_9_S_1')])) # 0.37
+########################################################################
+# TWIN 2
+eduNC9s <- 'NC9 =~ icliaca2+icpaaca2+iccsati2+iccadve2+iccoppo2'
+fit <- cfa(eduNC9s, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df9$eduNC_9_S_2 <- pred$NC9
+hist(df9$eduNC_9_S_2)
+
+df91 <- df9[,c("randomfamid","randomtwinid","eduNC_9_S_2")]
+df1 <- merge(df1, df91, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df1[, c('eduNC_9_S_1', 'eduNC_9_S_2')])) # 0.36
+```
+AGE 9 -- latent g 
+
+```{r}
+
+gg9 <- 'G9 =~ icpuzt1+icwrdt1+icshpt1+icgent1'
+fit <- cfa(gg9, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit)
+pred <- as.data.frame(pred)
+
+df9$lat_g_9_1 <- pred$G9; hist(df9$lat_g_9_1)
+df91 <- df9[,c("randomfamid","randomtwinid","lat_g_9_1")]
+df1 <- merge(df1, df91, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+######################################################################
+# TWIN 2
+gg9 <- 'G9 =~ icpuzt2+icwrdt2+icshpt2+icgent2'
+fit <- cfa(gg9, data=df9, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit)
+pred <- as.data.frame(pred)
+
+df9$lat_g_9_2 <- pred$G9; hist(df9$lat_g_9_2)
+df92 <- df9[,c("randomfamid","randomtwinid","lat_g_9_2")]
+df1 <- merge(df1, df92, by = c("randomfamid","randomtwinid"), all = TRUE)
+rcorr(as.matrix(df1[, c('lat_g_9_1', 'lat_g_9_2')])) # 0.62
+rcorr(as.matrix(df1[, c('icg2', 'lat_g_9_2')])) # 0.98
+```
+
+#----------------------------------------------------------------------
+Age 12 
+# 1) Parent-reported SR
+# 2) Teacher-reported SR
+# 3) Self-reported SR
+# 4) self-reported edu NC 
+# 2) g
+```{r}
+df12<- df[ , c('randomfamid','randomtwinid','lpqage','ltqage1', 'lcqage1', 'lcwage1', 'lte1',  'ltm1', 'lts1','lt2a1',  'lt3a1', 
+'lmatota1', 'lpitota1',  'lgotota1', 'lrvtota1', 'lpctot1', 'lgktota1', 
+'lvctota1', 'lcg1', 'lcvb1', 'lcnv1','lcpaaca1','lcliaca1', 'lmatenv1',
+'llitenv1','lpsprot1', 'ltsprot1','lcsprot1','lpshypt1', 'ltshypt1',
+'lcshypt1','lpscont1', 'ltscont1','lcscont1','lpspert1', 'ltspert1',
+'lcspert1','lpsanxt1', 'ltsanxt1','lcsanxt1','lpsbeht1', 'ltsbeht1','lcsbeht1',
+'ltqage2', 'lcqage2', 'lcwage2', 'lte2',  'ltm2', 'lts2','lt2a2',  'lt3a2', 
+'lmatota2', 'lpitota2',  'lgotota2', 'lrvtota2', 'lpctot2', 'lgktota2', 
+'lvctota2', 'lcg2', 'lcvb2', 'lcnv2','lcpaaca2','lcliaca2', 'lmatenv2',
+'llitenv2','lpsprot2', 'ltsprot2','lcsprot2','lpshypt2', 'ltshypt2',
+'lcshypt2','lpscont2', 'ltscont2','lcscont2','lpspert2', 'ltspert2',
+'lcspert2','lpsanxt2', 'ltsanxt2','lcsanxt2','lpsbeht2', 'ltsbeht2','lcsbeht2')]
+
+```
+Age 12-- NC-self-regulation (parent-rated) 
+```{r}
+#TWIN 1
+# reverse SDQ measures so to get a self-regulation latent factor where 
+# higher score equals higher SR 
+df12$lpshypt1r = -1*df12$lpshypt1
+df12$lpscont1r = -1*df12$lpscont1
+df12$lpspert1r = -1*df12$lpspert1
+df12$lpsanxt1r = -1*df12$lpsanxt1 #;rcorr(as.matrix(df12[, c('lpsanxt1r', 'lpsanxt1')]))
+
+latentSR12p <- 'SR12 =~ lpsprot1+lpshypt1r+lpscont1r+lpspert1r+lpsanxt1r'
+fit <- cfa(latentSR12p, data=df12, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df12$SR_12_P_1 <- pred$SR12
+hist(df12$SR_12_P_1)
+
+df121 <- df12[,c("randomfamid","randomtwinid","SR_12_P_1")]
+df1 <- merge(df1, df121, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+########################################################################
+# TWIN 2
+df12$lpshypt2r = -1*df12$lpshypt2
+df12$lpscont2r = -1*df12$lpscont2
+df12$lpspert2r = -1*df12$lpspert2
+df12$lpsanxt2r = -1*df12$lpsanxt2 #;rcorr(as.matrix(df12[, c('lpsanxt1r', 'lpsanxt1')]))
+
+latentSR12p <- 'SR12 =~ lpsprot2+lpshypt2r+lpscont2r+lpspert2r+lpsanxt2r'
+fit <- cfa(latentSR12p, data=df12, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+df12$SR_12_P_2 <- pred$SR12
+hist(df12$SR_12_P_2)
+df121 <- df12[,c("randomfamid","randomtwinid","SR_12_P_2")]
+df1 <- merge(df1, df121, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df12[, c('SR_12_P_1', 'SR_12_P_2')]))
+```
+Age 12-- NC-self-regulation (teacher-rated) 
+```{r}
+#TWIN 1
+# reverse SDQ measures so to get a self-regulation latent factor where 
+# higher score equals higher SR 
+df12$ltshypt1r = -1*df12$ltshypt1
+df12$ltscont1r = -1*df12$ltscont1
+df12$ltspert1r = -1*df12$ltspert1
+df12$ltsanxt1r = -1*df12$ltsanxt1 #;rcorr(as.matrix(df12[, c('lpsanxt1r', 'lpsanxt1')]))
+
+latentSR12t <- 'SR12 =~ ltsprot1+ltshypt1r+ltscont1r+ltspert1r+ltsanxt1r'
+fit <- cfa(latentSR12t, data=df12, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df12$SR_12_T_1 <- pred$SR12
+hist(df12$SR_12_T_1)
+
+df121 <- df12[,c("randomfamid","randomtwinid","SR_12_T_1")]
+df1 <- merge(df1, df121, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+########################################################################
+# TWIN 2
+df12$ltshypt2r = -1*df12$ltshypt2
+df12$ltscont2r = -1*df12$ltscont2
+df12$ltspert2r = -1*df12$ltspert2
+df12$ltsanxt2r = -1*df12$ltsanxt2 #;rcorr(as.matrix(df12[, c('lpsanxt1r', 'lpsanxt1')]))
+
+latentSR12t <- 'SR12 =~ ltsprot2+ltshypt2r+ltscont2r+ltspert2r+ltsanxt2r'
+fit <- cfa(latentSR12t, data=df12, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df12$SR_12_T_2 <- pred$SR12
+hist(df12$SR_12_T_2)
+
+df121 <- df12[,c("randomfamid","randomtwinid","SR_12_T_2")]
+df1 <- merge(df1, df121, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df12[, c('SR_12_T_1', 'SR_12_T_2')])) 0.45
+```
+Age 12-- NC-self-regulation (self-rated) 
+```{r}
+#TWIN 1
+# reverse SDQ measures so to get a self-regulation latent factor where 
+# higher score equals higher SR 
+df12$lcshypt1r = -1*df12$lcshypt1
+df12$lcscont1r = -1*df12$lcscont1
+df12$lcspert1r = -1*df12$lcspert1
+df12$lcsanxt1r = -1*df12$lcsanxt1 #;rcorr(as.matrix(df12[, c('lpsanxt1r', 'lpsanxt1')]))
+
+latentSR12s <- 'SR12 =~ lcsprot1+lcshypt1r+lcscont1r+lcspert1r+lcsanxt1r'
+fit <- cfa(latentSR12s, data=df12, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df12$SR_12_S_1 <- pred$SR12
+hist(df12$SR_12_S_1)
+
+df121 <- df12[,c("randomfamid","randomtwinid","SR_12_S_1")]
+df1 <- merge(df1, df121, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+########################################################################
+# TWIN 2
+df12$lcshypt2r = -1*df12$lcshypt2
+df12$lcscont2r = -1*df12$lcscont2
+df12$lcspert2r = -1*df12$lcspert2
+df12$lcsanxt2r = -1*df12$lcsanxt2 
+
+latentSR12s <- 'SR12 =~ lcsprot2+lcshypt2r+lcscont2r+lcspert2r+lcsanxt2r'
+fit <- cfa(latentSR12s, data=df12, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df12$SR_12_S_2 <- pred$SR12
+hist(df12$SR_12_S_2)
+
+df121 <- df12[,c("randomfamid","randomtwinid","SR_12_S_2")]
+df1 <- merge(df1, df121, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df12[, c('SR_12_S_1', 'SR_12_S_2')])) 0.40
+```
+Educationally-relevant NC skills 12 
+```{r}
+eduNC12s <- 'NC12 =~ lcpaaca1+lcliaca1+lmatenv1+llitenv1'
+fit <- cfa(eduNC12s, data=df12, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df12$eduNC_12_S_1 <- pred$NC12
+hist(df12$eduNC_12_S_1)
+
+df121 <- df12[,c("randomfamid","randomtwinid","eduNC_12_S_1")]
+df1 <- merge(df1, df121, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+########################################################################
+# TWIN 2
+eduNC12s <- 'NC12 =~ lcpaaca2+lcliaca2+lmatenv2+llitenv2'
+fit <- cfa(eduNC12s, data=df12, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df12$eduNC_12_S_2 <- pred$NC12
+hist(df12$eduNC_12_S_2)
+
+df121 <- df12[,c("randomfamid","randomtwinid","eduNC_12_S_2")]
+df1 <- merge(df1, df121, by = c("randomfamid","randomtwinid"), all = TRUE)
+#rcorr(as.matrix(df12[, c('eduNC_12_S_1', 'eduNC_12_S_2')])) 0.38
+```
+AGE 12-- Latent g
+
+```{r}
+gg12 <- 'G12 =~ lrvtota1+lpctot1+lgktota1+lvctota1'
+
+fit <- cfa(gg12, data=df12, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit)
+pred <- as.data.frame(pred)
+
+df12$lat_g_12_1 <- pred$G12; hist(df12$lat_g_12_1)
+df121 <- df12[,c("randomfamid","randomtwinid","lat_g_12_1")]
+df1 <- merge(df1, df121, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+######################################################################
+# TWIN 2
+gg12 <- 'G12 =~ lrvtota2+lpctot2+lgktota2+lvctota2'
+
+fit <- cfa(gg12, data=df12, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit)
+pred <- as.data.frame(pred)
+
+df12$lat_g_12_2 <- pred$G12; hist(df12$lat_g_12_2)
+df121 <- df12[,c("randomfamid","randomtwinid","lat_g_12_2")]
+df1 <- merge(df1, df121, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+#rcorr(as.matrix(df12[, c('lat_g_12_1', 'lat_g_12_2')])) #0.57
+#rcorr(as.matrix(df12[, c('lcg2', 'lat_g_12_2')])) # 0.99
+```
+#---------------------------------------------------------------------
+Age 16 measures
+# 1) Self-reported self-regulation
+# 2) Self-reported educationally-relevant noncognitive skills
+# No latent g as only 2 cognitive tests were administered at age 16
+
+```{r}
+df16<- df[ , c("randomfamid","randomtwinid",'pcwebage1', 'ppbhage', 'pcbhage1', 'pcexgcseage1', 
+'pses','pcexgcseengm1', 'pcexgcsescim1', 'pcexgcsematm1', 
+'pcexgcsecorem1',  'pcvctota1',  'pcrvtota1', 'pcg1', 
+'pcsecom1', 'pccurim1', 'pcgritm1', 'pcambim1', 'pcatscm1', 'pcscentsrm1', 
+'pcscencrsm1', 'pcscenpslm1', 'pcscenfagm1', 
+'pcscenfslm1', 'pcscenm1', 'pcmaset1',  'pcmainm1', 'pcmatmt1', 'pcpersneum1', 'pcpersextm1', 'pcpersopem1', 'pcpersagrm1', 'pcpersconm1', 'pcshsm1', 'pclotrm1', 'pcbhsdqanxt1', 
+'pcbhsdqpert1', 'pcbhsdqhypt1', 'pcbhsdqcont1', 'pcbhsdqprot1',
+
+'pcwebage2', 'pcbhage2', 'pcexgcseage2', 
+'pses','pcexgcseengm2', 'pcexgcsescim2', 'pcexgcsematm2', 
+'pcexgcsecorem2',  'pcvctota2',  'pcrvtota2', 'pcg2', 
+'pcsecom2', 'pccurim2', 'pcgritm2', 'pcambim2', 'pcatscm2', 'pcscentsrm2', 
+'pcscencrsm2', 'pcscenpslm2', 'pcscenfagm2', 
+'pcscenfslm2', 'pcscenm2', 'pcmaset2',  
+'pcmainm2', 'pcmatmt2', 
+'pcpersneum2', 'pcpersextm2', 'pcpersopem2', 
+'pcpersagrm2', 'pcpersconm2', 'pcshsm2', 'pclotrm2', 'pcbhsdqanxt2', 
+'pcbhsdqpert2', 'pcbhsdqhypt2', 'pcbhsdqcont2', 
+'pcbhsdqprot2')]
+```
+Age 16-- NC-self-regulation (self-rated) 
+```{r}
+#TWIN 1
+# reverse SDQ measures so to get a self-regulation latent factor where 
+# higher score equals higher SR 
+
+df16$pcbhsdqanxt1r = -1*df16$pcbhsdqanxt1
+df16$pcbhsdqpert1r = -1*df16$pcbhsdqpert1
+df16$pcbhsdqhypt1r = -1*df16$pcbhsdqhypt1
+df16$pcbhsdqcont1r = -1*df16$pcbhsdqcont1 #;rcorr(as.matrix(df12[, c('lpsanxt1r', 'lpsanxt1')]))
+
+latentSR16s <- 'SR16 =~ pcbhsdqanxt1r+pcbhsdqpert1r+pcbhsdqhypt1r+pcbhsdqcont1r+pcbhsdqprot1'
+fit <- cfa(latentSR16s, data=df16, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df16$SR_16_S_1 <- pred$SR16
+hist(df16$SR_16_S_1)
+
+df161 <- df16[,c("randomfamid","randomtwinid","SR_16_S_1")]
+df1 <- merge(df1, df161, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+########################################################################
+# TWIN 2
+df16$pcbhsdqanxt2r = -1*df16$pcbhsdqanxt2
+df16$pcbhsdqpert2r = -1*df16$pcbhsdqpert2
+df16$pcbhsdqhypt2r = -1*df16$pcbhsdqhypt2
+df16$pcbhsdqcont2r = -1*df16$pcbhsdqcont2 #;rcorr(as.matrix(df12[, c('lpsanxt1r', 'lpsanxt1')]))
+
+latentSR16s <- 'SR16 =~ pcbhsdqanxt2r+pcbhsdqpert2r+pcbhsdqhypt2r+pcbhsdqcont2r+pcbhsdqprot2'
+fit <- cfa(latentSR16s, data=df16, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df16$SR_16_S_2 <- pred$SR16
+hist(df16$SR_16_S_2)
+
+df161 <- df16[,c("randomfamid","randomtwinid","SR_16_S_2")]
+df1 <- merge(df1, df161, by = c("randomfamid","randomtwinid"), all = TRUE)
+rcorr(as.matrix(df16[, c('SR_16_S_1', 'SR_16_S_2')])) #0.31
+
+```
+Age 16 --Educationally relevant NC skills
+```{r}
+eduNC16s <- 'NC16 =~ pcsecom1+pccurim1+pcgritm1+pcambim1+pcatscm1+pcscenm1+pcmaset1+pcmainm1+pcmatmt1'
+fit <- cfa(eduNC16s, data=df16, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df16$eduNC_16_S_1 <- pred$NC16
+hist(df16$eduNC_16_S_1)
+
+df161 <- df16[,c("randomfamid","randomtwinid","eduNC_16_S_1")]
+df1 <- merge(df1, df161, by = c("randomfamid","randomtwinid"), all = TRUE)
+
+########################################################################
+# TWIN 2
+eduNC16s <- 'NC16 =~ pcsecom2+pccurim2+pcgritm2+pcambim2+pcatscm2+pcscenm2+pcmaset2+pcmainm2+pcmatmt2'
+fit <- cfa(eduNC16s, data=df16, std.lv = TRUE,missing = "fiml")
+sum<-summary(fit, fit.measures=TRUE, standardized=TRUE, ci = TRUE)
+st = standardizedSolution(fit)
+pred <-lavPredict(fit); pred <- as.data.frame(pred)
+
+#make variable
+df16$eduNC_16_S_2 <- pred$NC16
+hist(df16$eduNC_16_S_2)
+
+df162 <- df16[,c("randomfamid","randomtwinid","eduNC_16_S_2")]
+df1 <- merge(df1, df162, by = c("randomfamid","randomtwinid"), all = TRUE)
+rcorr(as.matrix(df16[, c('eduNC_16_S_1', 'eduNC_16_S_2')])) #0.35
+
+write.csv(df1, '/Users/margheritamalanchini/Dropbox/2019 Queen Mary/MM papers 2019/MM_AGA_Genomic SEM Achievement/Prepared data/2021-04-26_DevNoncog_prepared-v4-latentfactors.csv', row.names = F, na = 'NA')
+```
+
+# Associaitons between latent factors of NC skills and achievement accounting for g at each age
+
+```{r}
+df<- read.csv('/Users/margheritamalanchini/Dropbox/2019 Queen Mary/MM papers 2019/MM_AGA_Genomic SEM Achievement/Prepared data/2021-04-26_DevNoncog_prepared-v4-latentfactors.csv', strip.white = T, 
+              header = T, na.strings = NA)
+
+require(lmSupport)
+df2 = df[df$random==1, ]
+
+# Predicitons of achievement from latent NC and cogntive constructs 
+
+#Age 7 
+SR7=lm(df2$gta1~df2$SR_7_P_1)
+summary(SR7)
+SR7g=lm(df2$lat_g_7_1~df2$SR_7_P_1)
+summary(SR7g)
+mSR7 =lm(df2$gta1~df2$SR_7_P_1+df2$lat_g_7_1)
+summary(mSR7)
+
+#Age 9 parent SR
+SR9=lm(df2$it2a1~df2$SR_9_P_1)
+summary(SR9)
+SR9g=lm(df2$lat_g_9_1~df2$SR_9_P_1)
+summary(SR9g)
+mSR9 =lm(df2$it2a1~df2$SR_9_P_1+df2$lat_g_9_1)
+summary(mSR9)
+
+#Age 9 teacher SR
+SR9=lm(df2$it2a1~df2$SR_9_T_1)
+summary(SR9)
+SR9g=lm(df2$lat_g_9_1~df2$SR_9_T_1)
+summary(SR9g)
+mSR9 =lm(df2$it2a1~df2$SR_9_T_1+df2$lat_g_9_1)
+summary(mSR9)
+
+#Age 9 self SR
+SR9=lm(df2$it2a1~df2$SR_9_S_1)
+summary(SR9)
+SR9g=lm(df2$lat_g_9_1~df2$SR_9_S_1)
+summary(SR9g)
+mSR9 =lm(df2$it2a1~df2$SR_9_S_1+df2$lat_g_9_1)
+summary(mSR9)
+
+#Age 9 parent EDU NC
+edu9=lm(df2$it2a1~df2$eduNC_9_P_1)
+summary(edu9)
+edu9g=lm(df2$lat_g_9_1~df2$eduNC_9_P_1)
+summary(edu9g)
+medu9 =lm(df2$it2a1~df2$eduNC_9_P_1+df2$lat_g_9_1)
+summary(medu9)
+
+#Age 9 teacher EDU NC
+edu9=lm(df2$it2a1~df2$eduNC_9_T_1)
+summary(edu9)
+edu9g=lm(df2$lat_g_9_1~df2$eduNC_9_T_1)
+summary(edu9g)
+medu9 =lm(df2$it2a1~df2$eduNC_9_T_1+df2$lat_g_9_1)
+summary(medu9)
+
+#Age 9 SELF EDU NC
+edu9=lm(df2$it2a1~df2$eduNC_9_S_1)
+summary(edu9)
+edu9g=lm(df2$lat_g_9_1~df2$eduNC_9_S_1)
+summary(edu9g)
+medu9 =lm(df2$it2a1~df2$eduNC_9_S_1+df2$lat_g_9_1)
+summary(medu9)
+
+#Age 12 parent SR
+SR12=lm(df2$lt2a1~df2$SR_12_P_1)
+summary(SR12)
+SR12g=lm(df2$lat_g_12_1~df2$SR_12_P_1)
+summary(SR12g)
+mSR12 =lm(df2$lt2a1~df2$SR_12_P_1+df2$lat_g_12_1)
+summary(mSR12)
+
+#Age 12 teacher SR
+SR12=lm(df2$lt2a1~df2$SR_12_T_1)
+summary(SR12)
+SR12g=lm(df2$lat_g_12_1~df2$SR_12_T_1)
+summary(SR12g)
+mSR12 =lm(df2$lt2a1~df2$SR_12_T_1+df2$lat_g_12_1)
+summary(mSR12)
+
+#Age 12 self SR
+SR12=lm(df2$lt2a1~df2$SR_12_S_1)
+summary(SR12)
+SR12g=lm(df2$lat_g_12_1~df2$SR_12_S_1)
+summary(SR12g)
+mSR12 =lm(df2$lt2a1~df2$SR_12_S_1+df2$lat_g_12_1)
+summary(mSR12)
+
+#Age 12 self Edu noncog
+edu12=lm(df2$lt2a1~df2$eduNC_12_S_1)
+summary(edu12)
+edu12g=lm(df2$lat_g_12_1~df2$eduNC_12_S_1)
+summary(edu12g)
+medu12 =lm(df2$lt2a1~df2$eduNC_12_S_1+df2$lat_g_12_1)
+summary(medu12)
+
+#Age 16 self SR
+SR16=lm(df2$pcexgcsecorem1~df2$SR_16_S_1)
+summary(SR16)
+SR16g=lm(df2$pcg1~df2$SR_16_S_1)
+summary(SR16g)
+mSR16 =lm(df2$pcexgcsecorem1~df2$SR_16_S_1+df2$pcg1)
+summary(mSR16)
+
+#Age 16 Edu noncog
+#Age 16 self SR
+edu16=lm(df2$pcexgcsecorem1~df2$eduNC_16_S_1)
+summary(edu16)
+edu16g=lm(df2$pcg1~df2$eduNC_16_S_1)
+summary(edu16g)
+medu16 =lm(df2$pcexgcsecorem1~df2$eduNC_16_S_1+df2$pcg1)
+summary(medu16)
+
+```
+
+
