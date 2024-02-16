@@ -1,0 +1,422 @@
+TITLE: Trivariate Cog Noncog Ach age 9 parent
+DATA: FILE = "2020-08-13_Twin_Noncog_developmental_age_sex_residualized_Mplus.dat";
+VARIABLE: 
+NAMES = id_twin id_fam twin random cohort sex1 sex2 zygos sexzyg x3zygos acontact
+     aperinat medexcl1 medexcl2 exclude1 exclude2 ases data genotyped1 genotyped2
+     DZtwinpair selectunpaired dfouryr dtvoc1 dtvoc2 dnumbers1 dnumbers2 dliteracy1
+     dliteracy2 drepage1 drepage2 gpbage gciage1 gciage2 gtqage1 gtqage2 gte1 gte2
+     gtm1 gtm2 gta1 gta2 gsimilt1 gsimilt2 gvocabt1 gvocabt2 gpicomt1 gpicomt2
+     gnwrt1 gnwrt2 gcl1 gcl2 gcn1 gcn2 gcg1 gcg2 gpsprot1 gpsprot2 gpshypt1 gpshypt2
+     gpscont1 gpscont2 gpspert1 gpspert2 gpsanxt1 gpsanxt2 gpsbeht1 gpsbeht2
+     gtsprot1 gtsprot2 gtshypt1 gtshypt2 gtscont1 gtscont2 gtspert1 gtspert2
+     gtsanxt1 gtsanxt2 icpage itage1 itage2 ipincome ite1 ite2 itm1 itm2 its1 its2
+     it3a1 it3a2 it2a1 it2a2 icpuzt1 icpuzt2 icwrdt1 icwrdt2 icshpt1 icshpt2 icgent1
+     icgent2 icg1 icg2 icvb1 icvb2 icnv1 icnv2 ippaaca1 ippaaca2 itpaaca1 itpaaca2
+     icpaaca1 icpaaca2 ipliaca1 ipliaca2 itliaca1 itliaca2 icliaca1 icliaca2
+     ipcsati1 ipcsati2 itcsati1 itcsati2 iccsati1 iccsati2 ipcoppo1 ipcoppo2
+     iccoppo1 iccoppo2 ipcadve1 ipcadve2 iccadve1 iccadve2 ipcpeer1 ipcpeer2
+     itcpeer1 itcpeer2 iccpeer1 iccpeer2 ipsprot1 ipsprot2 itsprot1 itsprot2
+     icsprot1 icsprot2 ipshypt1 ipshypt2 itshypt1 itshypt2 icshypt1 icshypt2
+     ipscont1 ipscont2 itscont1 itscont2 icscont1 icscont2 ipspert1 ipspert2
+     itspert1 itspert2 icspert1 icspert2 ipsanxt1 ipsanxt2 itsanxt1 itsanxt2
+     icsanxt1 icsanxt2 ipsbeht1 ipsbeht2 itsbeht1 itsbeht2 icsbeht1 icsbeht2 lpqage
+     ltqage1 ltqage2 lcqage1 lcqage2 lcwage1 lcwage2 lte1 lte2 ltm1 ltm2 lts1 lts2
+     lt2a1 lt2a2 lt3a1 lt3a2 lmatota1 lmatota2 lpitota1 lpitota2 lgotota1 lgotota2
+     lrvtota1 lrvtota2 lpctot1 lpctot2 lgktota1 lgktota2 lvctota1 lvctota2 lcg1 lcg2
+     lcvb1 lcvb2 lcnv1 lcnv2 lcpaaca1 lcpaaca2 lcliaca1 lcliaca2 lmatenv1 lmatenv2
+     llitenv1 llitenv2 lpsprot1 lpsprot2 ltsprot1 ltsprot2 lcsprot1 lcsprot2
+     lpshypt1 lpshypt2 ltshypt1 ltshypt2 lcshypt1 lcshypt2 lpscont1 lpscont2
+     ltscont1 ltscont2 lcscont1 lcscont2 lpspert1 lpspert2 ltspert1 ltspert2
+     lcspert1 lcspert2 lpsanxt1 lpsanxt2 ltsanxt1 ltsanxt2 lcsanxt1 lcsanxt2
+     lpsbeht1 lpsbeht2 ltsbeht1 ltsbeht2 lcsbeht1 lcsbeht2 pcwebage1 pcwebage2
+     ppbhage pcbhage1 pcbhage2 pcexgcseage1 pcexgcseage2 pses pcexgcseengm1
+     pcexgcseengm2 pcexgcsescim1 pcexgcsescim2 pcexgcsematm1 pcexgcsematm2
+     pcexgcsecorem1 pcexgcsecorem2 pcvctota1 pcvctota2 pcrvtota1 pcrvtota2 pcg1 pcg2
+     pcsecom1 pcsecom2 pccurim1 pccurim2 pcgritm1 pcgritm2 pcambim1 pcambim2
+     pcatscm1 pcatscm2 pcscentsrm1 pcscentsrm2 pcscencrsm1 pcscencrsm2 pcscenpslm1
+     pcscenpslm2 pcscenfagm1 pcscenfagm2 pcscenfslm1 pcscenfslm2 pcscenm1 pcscenm2
+     pcmaset1 pcmaset2 pcmainm1 pcmainm2 pcmatmt1 pcmatmt2 pcpersneum1 pcpersneum2
+     pcpersextm1 pcpersextm2 pcpersopem1 pcpersopem2 pcpersagrm1 pcpersagrm2
+     pcpersconm1 pcpersconm2 pcshsm1 pcshsm2 pclotrm1 pclotrm2 pcbhsdqanxt1
+     pcbhsdqanxt2 pcbhsdqpert1 pcbhsdqpert2 pcbhsdqhypt1 pcbhsdqhypt2 pcbhsdqcont1
+     pcbhsdqcont2 pcbhsdqprot1 pcbhsdqprot2; 
+MISSING=.;
+
+
+USEVARIABLES ARE
+
+!!!!!Twin 1!!!!!
+
+!all g age 9 Twin 1
+icpuzt1
+icwrdt1
+icshpt1
+icgent1
+!All Noncog age 9 Twin 1
+ippaaca1
+ipliaca1
+ipcsati1
+ipcoppo1
+ipcadve1
+!iccpeer1
+!icshypt1
+!icscont1
+!Achievement (English and Maths) age 9 Twin 1
+it2a1
+
+!!!!!Twin 2!!!!!
+!all g age 9 Twin 1
+icpuzt2
+icwrdt2
+icshpt2
+icgent2
+!All Noncog age 9 Twin 1
+ippaaca2
+ipliaca2
+ipcsati2
+ipcoppo2
+ipcadve2
+!iccpeer2
+!icshypt2
+!icscont2
+!Achievement (English and Maths) age 9 Twin 1
+it2a2;
+
+CLUSTER=id_fam;
+GROUPING IS zygos (1=MZ 2=DZ);
+
+!DEFINE:
+!gf Twin 2
+!block2=ZBlockTotal_22; 
+
+ANALYSIS:
+TYPE=COMPLEX;
+MODEL IS NOCOVARIANCES;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+MODEL:
+!!!! ACE for individual cognitive measures
+
+!Puzzles
+Aicpuzt1 BY icpuzt1*.5(apuz); Aicpuzt1@1; !#A component twin 1
+Cicpuzt1 BY icpuzt1*.5(cpuz); Cicpuzt1@1; !#C component twin 1
+Eicpuzt1 BY icpuzt1*.5(epuz); Eicpuzt1@1; !#E component twin 1
+icpuzt1@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+Aicpuzt2 BY icpuzt2*.5(apuz); Aicpuzt2@1; !#A component twin 2
+Cicpuzt2 BY icpuzt2*.5(cpuz); Cicpuzt2@1; !#C component twin 2
+Eicpuzt2 BY icpuzt2*.5(epuz); Eicpuzt2@1; !#E component twin 2
+icpuzt2@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+!Vocabulary
+Aicwrdt1 BY icwrdt1*.5(avoc); Aicwrdt1@1; !#A component twin 1
+Cicwrdt1 BY icwrdt1*.5(cvoc); Cicwrdt1@1; !#C component twin 1
+Eicwrdt1 BY icwrdt1*.5(evoc); Eicwrdt1@1; !#E component twin 1
+icwrdt1@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+Aicwrdt2 BY icwrdt2*.5(avoc); Aicwrdt2@1; !#A component twin 2
+Cicwrdt2 BY icwrdt2*.5(cvoc); Cicwrdt2@1; !#C component twin 2
+Eicwrdt2 BY icwrdt2*.5(evoc); Eicwrdt2@1; !#E component twin 2
+icwrdt2@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+!Shapes
+Aicshpt1 BY icshpt1*.5(ashape); Aicshpt1@1; !#A component twin 1
+Cicshpt1 BY icshpt1*.5(cshape); Cicshpt1@1; !#C component twin 1
+Eicshpt1 BY icshpt1*.5(eshape); Eicshpt1@1; !#E component twin 1
+icshpt1@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+Aicshpt2 BY icshpt2*.5(ashape); Aicshpt2@1; !#A component twin 2
+Cicshpt2 BY icshpt2*.5(cshape); Cicshpt2@1; !#C component twin 2
+Eicshpt2 BY icshpt2*.5(eshape); Eicshpt2@1; !#E component twin 2
+icshpt1@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+!General Knowledge
+Aicgent1 BY icgent1*.5(agknow); Aicgent1@1; !#A component twin 1
+Cicgent1 BY icgent1*.5(cgknow); Cicgent1@1; !#C component twin 1
+Eicgent1 BY icgent1*.5(egknow); Eicgent1@1; !#E component twin 1
+icgent1@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+Aicgent2 BY icgent2*.5(agknow); Aicgent2@1; !#A component twin 2
+Cicgent2 BY icgent2*.5(cgknow); Cicgent2@1; !#C component twin 2
+Eicgent2 BY icgent2*.5(egknow); Eicgent2@1; !#E component twin 2
+icgent2@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+!!!!!!!!!!!! 
+
+!Structure & ACE for higher order Cog factor
+
+Cog1 BY icwrdt1@1; !one of the loading fixed at 1, WM in this case, for twin 1 
+Cog1 BY icpuzt1*.7(lpuz);
+Cog1 BY icshpt1*.7(lshap);
+Cog1 BY icgent1*.7(lgknow);
+
+Cog2 BY icwrdt2@1; !one of the loading fixed at 1, WM in this case, for twin 1 
+Cog2 BY icpuzt2*.7(lpuz);
+Cog2 BY icshpt2*.7(lshap);
+Cog2 BY icgent2*.7(lgknow);
+
+
+ACog1 BY Cog1*.7(agg); ACog1@1; Cog1@0; !a 
+ACog2 BY Cog2*.7(agg); ACog2@1; Cog2@0;
+
+CCog1 BY Cog1*.5(cgg); CCog1@1; Cog1@0; !c
+CCog2 BY Cog2*.5(cgg); CCog2@1; Cog2@0;
+
+ECog1 BY Cog1*.3(egg); ECog1@1; Cog1@0; !e
+ECog2 BY Cog2*.3(egg); ECog2@1; Cog2@0;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!! ACE for individual Noncognitive measures
+
+
+!Perceived ability
+Aicpaaca1 BY ippaaca1*.5(apab); Aicpaaca1@1; !#A component twin 1
+Cicpaaca1 BY ippaaca1*.5(cpab); Cicpaaca1@1; !#C component twin 1
+Eicpaaca1 BY ippaaca1*.5(epab); Eicpaaca1@1; !#E component twin 1
+ippaaca1@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+Aicpaaca2 BY ippaaca2*.5(apab); Aicpaaca2@1; !#A component twin 2
+Cicpaaca2 BY ippaaca2*.5(cpab); Cicpaaca2@1; !#C component twin 2
+Eicpaaca2 BY ippaaca2*.5(epab); Eicpaaca2@1; !#E component twin 2
+ippaaca2@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+!Enjoyment 
+Aicliaca1 BY ipliaca1*.5(apli); Aicliaca1@1; !#A component twin 1
+Cicliaca1 BY ipliaca1*.5(cpli); Cicliaca1@1; !#C component twin 1
+Eicliaca1 BY ipliaca1*.5(epli); Eicliaca1@1; !#E component twin 1
+ipliaca1@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+Aicliaca2 BY ipliaca2*.5(apli); Aicliaca2@1; !#A component twin 2
+Cicliaca2 BY ipliaca2*.5(cpli); Cicliaca2@1; !#C component twin 2
+Eicliaca2 BY ipliaca2*.5(epli); Eicliaca2@1; !#E component twin 2
+ipliaca2@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+!Class satisfaction 
+
+Aiccsati1 BY ipcsati1*.5(accs); Aiccsati1@1; !#A component twin 1
+Ciccsati1 BY ipcsati1*.5(cccs); Ciccsati1@1; !#C component twin 1
+Eiccsati1 BY ipcsati1*.5(eccs); Eiccsati1@1; !#E component twin 1
+ipcsati1@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+Aiccsati2 BY ipcsati2*.5(accs); Aiccsati2@1; !#A component twin 2
+Ciccsati2 BY ipcsati2*.5(cccs); Ciccsati2@1; !#C component twin 2
+Eiccsati2 BY ipcsati2*.5(eccs); Eiccsati2@1; !#E component twin 2
+ipcsati2@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+!Educational opportunities
+Aiccoppo1 BY ipcoppo1*.5(aopp); Aiccoppo1@1; !#A component twin 1
+Ciccoppo1 BY ipcoppo1*.5(copp); Ciccoppo1@1; !#C component twin 1
+Eiccoppo1 BY ipcoppo1*.5(eopp); Eiccoppo1@1; !#E component twin 1
+ipcoppo1@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+Aiccoppo2 BY ipcoppo2*.5(aopp); Aiccoppo2@1; !#A component twin 2
+Ciccoppo2 BY ipcoppo2*.5(copp); Ciccoppo2@1; !#C component twin 2
+Eiccoppo2 BY ipcoppo2*.5(eopp); Eiccoppo2@1; !#E component twin 2
+ipcoppo2@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+
+! Adventures - need for cognition
+Aiccadve1 BY ipcadve1*.5(aadv); Aiccadve1@1; !#A component twin 1
+Ciccadve1 BY ipcadve1*.5(cadv); Ciccadve1@1; !#C component twin 1
+Eiccadve1 BY ipcadve1*.5(eadv); Eiccadve1@1; !#E component twin 1
+ipcadve1@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+ 
+Aiccadve2 BY ipcadve2*.5(aadv); Aiccadve2@1; !#A component twin 2
+Ciccadve2 BY ipcadve2*.5(cadv); Ciccadve2@1; !#C component twin 2
+Eiccadve2 BY ipcadve2*.5(eadv); Eiccadve2@1; !#E component twin 2
+ipcadve2@0; !fix residual variance to zero so that all var is accounted for by A C and E 
+ 
+! Note: not including peer motivation as not strictly related to individual levels (iccpeer1)
+
+!Structure & ACE for higher order NonCog factor
+!twin 1
+Noncog1 BY ipliaca1@1; !one of the loading fixed at 1
+Noncog1 BY ippaaca1*.7(lpca);
+Noncog1 BY ipcsati1*.7(lcsat);
+Noncog1 BY ipcadve1*.7(ladv);
+Noncog1 BY ipcoppo1*.7(lopp);
+!twin2
+Noncog2 BY ipliaca2@1; !one of the loading fixed at 1
+Noncog2 BY ippaaca2*.7(lpca);
+Noncog2 BY ipcsati2*.7(lcsat);
+Noncog2 BY ipcadve2*.7(ladv);
+Noncog2 BY ipcoppo2*.7(lopp);
+
+
+ANoncog1 BY Noncog1*.7(anc); ANoncog1@1; Noncog1@0; !a 
+ANoncog2 BY Noncog2*.7(anc); ANoncog2@1; Noncog2@0;
+
+CNoncog1 BY Noncog1*.2(cnc); CNoncog1@1; Noncog1@0; !c
+CNoncog2 BY Noncog2*.2(cnc); CNoncog2@1; Noncog2@0;
+
+ENoncog1 BY Noncog1*.5(enc); ENoncog1@1; Noncog1@0; !e
+ENoncog2 BY Noncog2*.5(enc); ENoncog2@1; Noncog2@0;
+
+
+
+!ACE for Achievement total
+
+Aach1 BY it2a1*.7(aach); Aach1@1; it2a1@0; !a 
+Aach2 BY it2a2*.7(aach); Aach2@1; it2a2@0;
+
+Cach1 BY it2a1*.7(cach); Cach1@1; it2a1@0; !c 
+Cach2 BY it2a2*.7(cach); Cach2@1; it2a2@0;
+
+Each1 BY it2a1*.7(each); Each1@1; it2a1@0; !e 
+Each2 BY it2a2*.7(each); Each2@1; it2a2@0;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! Trivariate Cholesky
+
+!Regress Ach on Noncog & Cog ACE
+!and Noncog on Cog ACE
+
+!Path 3,1
+it2a1 ON ACog1*.6 (bA31);
+it2a1 ON CCog1*.2 (bC31);
+it2a1 ON ECog1*.1 (bE31);
+
+it2a2 ON ACog2*.6 (bA31);
+it2a2 ON CCog2*.2 (bC31);
+it2a2 ON ECog2*.1 (bE31);
+
+
+!Path 3,2: latent Openness of EF
+it2a1 ON ANoncog1*.6 (bA32);
+it2a1 ON CNoncog1*.2 (bC32);
+it2a1 ON ENoncog1*.1 (bE32);
+
+it2a2 ON ANoncog2*.6 (bA32);
+it2a2 ON CNoncog2*.2 (bC32);
+it2a2 ON ENoncog2*.1 (bE32);
+
+
+!Path 2,1
+Noncog1 ON ACog1*.5 (bA21);
+Noncog1 ON CCog1*.5 (bC21);
+Noncog1 ON ECog1*.5 (bE21);
+
+Noncog2 ON ACog2*.5 (bA21);
+Noncog2 ON CCog2*.5 (bC21);
+Noncog2 ON ECog2*.5 (bE21);
+
+
+!!! All latent variables !!!
+[
+Cog1@0 Cog2@0 Noncog1@0 Noncog2@0
+ACog1@0 CCog1@0 ECog1@0 
+ACog2@0 CCog2@0 ECog2@0 
+ANoncog1@0 CNoncog1@0 ENoncog1@0
+ANoncog2@0 CNoncog2@0 ENoncog2@0
+Aach1@0 Cach1@0 Each1@0
+Aach2@0 Cach2@0 Each2@0
+
+Aicpuzt1@0 Cicpuzt1@0 Eicpuzt1@0
+Aicpuzt2@0 Cicpuzt2@0 Eicpuzt2@0
+Aicwrdt1@0 Cicwrdt1@0 Eicwrdt1@0
+Aicwrdt2@0 Cicwrdt2@0 Eicwrdt2@0
+Aicshpt1@0 Cicshpt1@0 Eicshpt1@0
+Aicshpt2@0 Cicshpt2@0 Eicshpt2@0
+Aicgent1@0 Cicgent1@0 Eicgent1@0
+Aicgent2@0 Cicgent2@0 Eicgent2@0
+
+
+Aicpaaca1@0 Cicpaaca1@0 Eicpaaca1@0
+Aicpaaca2@0 Cicpaaca2@0 Eicpaaca2@0
+Aicliaca1@0 Cicliaca1@0 Eicliaca1@0
+Aicliaca2@0 Cicliaca2@0 Eicliaca2@0
+Aiccsati1@0 Ciccsati1@0 Eiccsati1@0
+Aiccsati2@0 Ciccsati2@0 Eiccsati2@0
+Aiccoppo1@0 Ciccoppo1@0 Eiccoppo1@0 
+Aiccoppo2@0 Ciccoppo2@0 Eiccoppo2@0 
+Aiccadve1@0 Ciccadve1@0 Eiccadve1@0
+Aiccadve2@0 Ciccadve2@0 Eiccadve2@0
+];
+
+!!! observed variables: fix the intercept to be equal for 
+!twin 1 and 2 (part of assumptions)!!!
+!Cog
+[icpuzt1*](iicpuzt);    [icpuzt2*](iicpuzt);
+[icwrdt1*](iicwrdt);    [icwrdt2*](iicwrdt);
+[icshpt1*](iicshpt);    [icshpt2*](iicshpt);
+[icgent1 *](iicgent);   [icgent2 *](iicgent);
+[ippaaca1*](iicpaaca);  [ippaaca2*](iicpaaca);
+[ipliaca1*](iicliaca);  [ipliaca2*](iicliaca);
+[ipcsati1*](iiccsati);  [ipcsati2*](iiccsati);
+[ipcoppo1*](iiccoppo);  [ipcoppo2*](iiccoppo);
+[ipcadve1*](iiccadve);  [ipcadve2*](iiccadve);
+[it2a1*] (iit2a);       [it2a2*] (iit2a);
+
+!!!!!!!!!!!!!!!!!!!!!
+
+MODEL MZ:
+!!! A !!!
+
+ACog1 WITH ACog2@1;
+ANoncog1 WITH ANoncog2@1;
+Aach1 WITH Aach2@1;
+
+Aicpuzt1  WITH Aicpuzt2  @1;
+Aicwrdt1  WITH Aicwrdt2  @1;
+Aicshpt1  WITH Aicshpt2  @1;
+Aicgent1  WITH Aicgent2  @1;
+Aicpaaca1 WITH Aicpaaca2 @1;
+Aicliaca1 WITH Aicliaca2 @1;
+Aiccsati1 WITH Aiccsati2 @1;
+Aiccoppo1 WITH Aiccoppo2 @1;
+Aiccadve1 WITH Aiccadve2 @1;
+
+!!! C !!!
+CCog1 WITH CCog2@1;
+CNoncog1 WITH CNoncog2@1;
+Cach1 WITH Cach2@1;
+Cicpuzt1  WITH Cicpuzt2 @1;
+Cicwrdt1  WITH Cicwrdt2 @1;
+Cicshpt1  WITH Cicshpt2 @1;
+Cicgent1  WITH Cicgent2 @1;
+Cicpaaca1 WITH Cicpaaca2@1;
+Cicliaca1 WITH Cicliaca2@1;
+Ciccsati1 WITH Ciccsati2@1;
+Ciccoppo1 WITH Ciccoppo2@1;
+Ciccadve1 WITH Ciccadve2@1;
+
+MODEL DZ:
+
+!!! A !!!
+ACog1 WITH ACog2@.5;
+ANoncog1 WITH ANoncog2@.5;
+Aach1 WITH Aach2@.5;
+Aicpuzt1  WITH Aicpuzt2  @.5;
+Aicwrdt1  WITH Aicwrdt2  @.5;
+Aicshpt1  WITH Aicshpt2  @.5;
+Aicgent1  WITH Aicgent2  @.5;
+Aicpaaca1 WITH Aicpaaca2 @.5;
+Aicliaca1 WITH Aicliaca2 @.5;
+Aiccsati1 WITH Aiccsati2 @.5;
+Aiccoppo1 WITH Aiccoppo2 @.5;
+Aiccadve1 WITH Aiccadve2 @.5;
+
+!!! C !!!
+CCog1 WITH CCog2@1;
+CNoncog1 WITH CNoncog2@1;
+Cach1 WITH Cach2@1;
+Cicpuzt1  WITH Cicpuzt2 @1;
+Cicwrdt1  WITH Cicwrdt2 @1;
+Cicshpt1  WITH Cicshpt2 @1;
+Cicgent1  WITH Cicgent2 @1;
+Cicpaaca1 WITH Cicpaaca2@1;
+Cicliaca1 WITH Cicliaca2@1;
+Ciccsati1 WITH Ciccsati2@1;
+Ciccoppo1 WITH Ciccoppo2@1;
+Ciccadve1 WITH Ciccadve2@1;
+
+
+
+OUTPUT: SAMPSTAT; CINTERVAL; STANDARDIZED;
+
+
+
+
+
+
